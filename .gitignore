@@ -1,0 +1,18 @@
+# Arduino 프로젝트용 .gitignore 파일
+# PlatformIO (빌드 파일과 라이브러리 무시)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code (내 에디터 설정 무시)
+.vscode/
+
+# 운영체제 잡동사니 무시
+.DS_Store
+Thumbs.db
+
+# 컴파일된 실행 파일 무시
+*.exe
+*.o
+*.bin
+*.hex
