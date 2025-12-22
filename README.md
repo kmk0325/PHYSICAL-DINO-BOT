@@ -10,9 +10,9 @@
 ![Demo Preview](https://github.com/user-attachments/assets/1b14d24f-287e-4c30-9b63-d175223deedf)
 
 ## ⚡ Key Features
-* **Register Level Control:** 라이브러리 없이 `Timer1 Fast PWM(Mode 14)`와 `ADC 레지스터`를 직접 제어하여 최적화
+* **Register Level Control:** 라이브러리 없이 `Timer1 Fast PWM(Mode 14)`와 `ADC 레지스터`를 직접 제어, 최적화
 * **Auto-Calibration:** 부팅 시 초기 배경 밝기 값을 자동으로 학습
-* **Adaptive Logic:** 조명 변화에 따라 기준값을 자동 보정하며, 다크 모드 전환 감지 지원
+* **Adaptive Logic:** 조명 변화에 따라 기준값을 자동 보정, 다크 모드 전환 감지
 
 ## 🛠 Hardware Pinout
 
