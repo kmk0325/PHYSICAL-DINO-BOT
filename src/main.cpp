@@ -74,8 +74,10 @@ void loop() {
         // 다크모드일 때
         backgroundValue = currentValue;
         Serial.println("Mode Switched");
+        delay(50);  // 노이즈 무시를 위해
+        return;
     }
-    else if(diff > SENSITIVITY) {
+    else if(diff > SENSITIVITY && diff < 130) {
         jump();
         // 점프 중에는 배경 업데이트를 멈추기 위해 delay를 주거나 로직을 건너 뛴다
         delay(300);
